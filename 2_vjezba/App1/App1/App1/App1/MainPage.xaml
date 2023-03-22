@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage"
+             Title="Hello XAML!">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android" Value="10, 20, 10, 10"></On>
+
+        </OnPlatform>
+    </ContentPage.Padding>
+    
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <Button Text="Say hello"
+                x:Name="GreetMeButton"
+                Clicked="GreetMeButton_Clicked"
+                CornerRadius="10"
+                HorizontalOptions="Center"/>
+
+            
+            
+            <Entry Placeholder=""
+                  x:Name="NameEntry"/>
+
+            <Label Text="Hello"
+                  FontSize="Medium"
+                  x:Name="GreetingLabel"/>
+            
+            <Button Text="Go to Demo grid"
+                x:Name="navigateToGridButton"
+                Clicked="navigateToGridButton_Clicked"
+                CornerRadius="10"
+                HorizontalOptions="Center"/>
+
+            <Button Text="BindingDemo"
+                x:Name="navigateToBindingDemoButton"
+                Clicked="navigateToBindingDemoButton_Clicked"
+                CornerRadius="10"
+                HorizontalOptions="Center"/>
+            <Label Text=""                     
+                    x:Name="SliderValueLabel"
+                    VerticalOptions="CenterAndExpand"/>
+            
+             <Slider Minimum="0" Maximum="100"                    
+                     ValueChanged="Slider_ValueChanged"/>      
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>
+

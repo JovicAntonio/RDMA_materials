@@ -1,0 +1,15 @@
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\bin\Debug\net6.0\NamespacesClasses.exe
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\bin\Debug\net6.0\NamespacesClasses.deps.json
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\bin\Debug\net6.0\NamespacesClasses.runtimeconfig.json
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\bin\Debug\net6.0\NamespacesClasses.dll
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\bin\Debug\net6.0\NamespacesClasses.pdb
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.csproj.AssemblyReference.cache
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.AssemblyInfoInputs.cache
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.AssemblyInfo.cs
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.dll
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\refint\NamespacesClasses.dll
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.pdb
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\NamespacesClasses.genruntimeconfig.cache
+C:\Users\korisnik\source\repos\NamespacesClasses\NamespacesClasses\obj\Debug\net6.0\ref\NamespacesClasses.dll

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.GridDemoPage">
+       <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="100"/>
+
+                <RowDefinition Height="*"/>
+
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions> 
+            
+            <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition Width="100"/>
+
+                <ColumnDefinition Width="*"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+            </Grid.ColumnDefinitions>
+            <Label Text="100 x 100"
+               Grid.Row="0" Grid.Column="0"
+               TextColor="red"
+               BackgroundColor="white"/>
+            <Label Text="Spajanje stupaca u redke"
+               Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
+               TextColor="Black"
+               BackgroundColor="Silver"/>
+            
+            <Label Text="Spajanje redaka u stupac"
+               Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"
+               TextColor="Black"
+               BackgroundColor="Blue"/>
+
+            <Label Text="Preostali prostor"
+               Grid.Row="1" Grid.Column="1"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               TextColor="Black"
+               BackgroundColor="Yellow"/>
+
+
+            <Label Text="Prilagođeno"
+               Grid.Row="2" Grid.Column="2"
+               TextColor="Black"
+               BackgroundColor="red"/>
+
+        </Grid>
+
+    </ContentPage.Content>
+    
+</ContentPage>

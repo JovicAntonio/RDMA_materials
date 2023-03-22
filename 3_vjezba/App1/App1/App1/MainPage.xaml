@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout VerticalOptions="Center" Margin="15">
+        <Entry x:Name="userEntry" Placeholder="E-mail" Keyboard="Email"/>
+        <Entry x:Name="passEntry" Placeholder="Password" IsPassword="True"/>
+        <Button x:Name="loginButton" Style="{StaticResource strongButton}" Text="lOGIN" Clicked="loginButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
