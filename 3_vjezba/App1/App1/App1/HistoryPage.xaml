@@ -3,8 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.HistoryPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Button BackgroundColor="{StaticResource blueColor}"/>
-        </StackLayout>
+        <ListView x:Name="postListView" ItemSelected="postListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Exp}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>

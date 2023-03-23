@@ -38,3 +38,4 @@ C:\Users\korisnik\source\repos\3_vjezba\App1\App1\App1\obj\Debug\netstandard2.0\
 C:\Users\korisnik\source\repos\3_vjezba\App1\App1\App1\obj\Debug\netstandard2.0\refint\App1.dll
 C:\Users\korisnik\source\repos\3_vjezba\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
 C:\Users\korisnik\source\repos\3_vjezba\App1\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
+C:\Users\korisnik\source\repos\3_vjezba\App1\App1\App1\obj\Debug\netstandard2.0\PostDetailPage.xaml.g.cs
