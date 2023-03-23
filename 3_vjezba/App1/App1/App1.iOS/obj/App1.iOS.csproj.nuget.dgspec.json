@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1.iOS\\App1.iOS.csproj": {}
+    "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1.iOS\\App1.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1.iOS\\App1.iOS.csproj": {
+    "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1.iOS\\App1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
         "projectName": "App1.iOS",
-        "projectPath": "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectPath": "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
         "packagesPath": "C:\\Users\\korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1.iOS\\obj\\",
+        "outputPath": "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1\\App1.csproj": {
-                "projectPath": "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1\\App1.csproj"
+              "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1\\App1.csproj": {
+                "projectPath": "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1\\App1.csproj"
               }
             }
           }
@@ -49,6 +49,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           }
         }
@@ -65,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1\\App1.csproj": {
+    "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1\\App1.csproj",
+        "projectPath": "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\korisnik\\Desktop\\App1\\App1\\App1\\obj\\",
+        "outputPath": "C:\\Users\\korisnik\\source\\repos\\3_vjezba\\App1\\App1\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,6 +123,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

@@ -6,13 +6,20 @@ namespace App1
 {
     public partial class App : Application
     {
+        public static string DatabaseLocation = string.Empty;
+        
         public App()
         {
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
         }
-
+        public App(string dbLoc)
+        {
+            InitializeComponent();
+            MainPage = new NavigationPage(new MainPage());
+            DatabaseLocation = dbLoc;
+        }
         protected override void OnStart()
         {
         }
